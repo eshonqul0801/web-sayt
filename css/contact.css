@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(27, 27, 24);
+  color: #fff;
+  z-index: 1000;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header-info {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-list {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  column-gap: 60px;
+}
+
+.header-link {
+  font-family: "Cormorant";
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-link:hover {
+  color: red;
+}
+
+.border {
+  border: 1px solid #212121;
+}
+
+/* main  */
+
+.contakt {
+  text-align: center;
+}
+
+.contakt-heading {
+  font-family: Cormorant "Garamond" sans-serif;
+  font-size: 64px;
+  line-height: 78px;
+}
+
+.container-description {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.contakt-paragrf {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.const {
+  text-align: center;
+}
+
+.input,
+.input1 {
+  display: flex;
+  width: 588px;
+  height: 56px;
+  margin: 0 auto 24px;
+  font-size: 20px;
+  background: #212121;
+  border: none;
+}
+
+.input1 {
+  height: 160px;
+  margin-bottom: 48px;
+}
+
+.contakt-link {
+  text-decoration: none;
+  padding: 20px 277px;
+  position: relative;
+  color: white;
+  background-color: #e20338;
+}
+
+/* main  */
+
+footer {
+  margin-top: 48px;
+}
+
+.footer-container {
+  width: 1280px;
+  margin: 0 auto 50px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  padding: 0 60px;
+}
+
+.footer-item1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.adress-list {
+  display: grid;
+  grid-template-columns: repeat(2, 50px);
+  grid-template-rows: repeat(2, 50px);
+  cursor: pointer;
+}
+
+.footer-input {
+  width: 384px;
+  height: 46px;
+  margin: 10px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.markup-link {
+  text-decoration: none;
+  margin-left: 16px;
+  padding: 12px 24px;
+  border: 1px solid #00f;
+  color: #00f;
+  border-radius: 10px;
+}
+
+.markup-link:hover {
+  background-color: #ff0;
+  color: red;
+}

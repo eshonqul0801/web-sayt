@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(27, 27, 24);
+  color: #fff;
+  z-index: 1000;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1120px;
+}
+
+.header-info {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    column-gap: 60px;
+}
+
+.header-link {
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-link:hover {
+    color: red;
+}
+
+.border {
+    border: 1px solid #212121;
+}
+
+
+/* main  */
+
+.portrfolio-info {
+    text-align: center;
+}
+
+.portfolio-heading {
+    font-size: 64px;
+    line-height: 78px;
+    color: white;
+}
+
+.portfolio-list {
+    list-style: none;
+    margin-bottom: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 1px solid white;
+}
+
+.portfolio-link:hover {
+    background-color: yellow;
+    color: red;
+}
+
+.img-info {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+    margin-bottom: 48px;
+}
+
+.number-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 50% 50px;
+    padding: 0px;
+}
+
+.number-item,
+.number-item1 {
+    margin: 0 16px;
+    padding: 12px 19px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.number-item1 {
+    padding: 14px 14px;
+}
+
+.number {
+    height: 336px;
+    background-image: url(../imgs/bakround_img.png);
+    background-color: #212121;
+}
+
+.phone-number {
+    height: 336px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.number-paragrf {
+    font-size: 32px;
+    line-height: 40px;
+    width: 560px;
+}
+
+.number-link {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(226, 3, 56, 1);
+    padding: 16px 73px;
+    border-radius: 5px;
+}
+
+.number-link:hover {
+    background-color: rgb(8, 7, 7);
+    color: red;
+    border-radius: 10px;
+}
+
+.input-number {
+    background-color: #212121;
+    border: none;
+    width: 300px;
+    height: 50px;
+}
